@@ -1,9 +1,8 @@
-![kirby-dream-land](https://github.com/user-attachments/assets/f661f913-8b2c-4da1-92f3-142d06ea03ec)
+<img width="878" height="672" alt="image" src="https://github.com/user-attachments/assets/3fc000c6-a11c-43f6-ad13-6b91fb2f9856" />
 
-**Kirby: the CMS that adapts to any project, loved by developers and editors alike.**
-The Plainkit is a minimal Kirby setup with the basics you need to start a project from scratch. It is the ideal choice if you are already familiar with Kirby and want to start step-by-step.
+# SIMPLE STAR STACKER 💫
 
-You can learn more about Kirby at [getkirby.com](https://getkirby.com).
+A simple Kirby CMS template using vite, tailwindcss, alpine.js and rsync deployment.
 
 ### Try Kirby for free
 
@@ -29,8 +28,3 @@ If you are familiar with Git, you can clone Kirby's Plainkit repository from Git
 -   **[Discord](https://chat.getkirby.com)** – Hang out and meet the community.
 -   **[Mastodon](https://mastodon.social/@getkirby)** – Spread the word.
 -   **[Bluesky](https://bsky.app/profile/getkirby.com)** – Spread the word.
-
----
-
-© 2009 Bastian Allgeier
-[getkirby.com](https://getkirby.com) · [License agreement](https://getkirby.com/license)
