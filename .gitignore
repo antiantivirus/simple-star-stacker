@@ -57,3 +57,7 @@ node_modules/
 # Composer
 # ---------------
 vendor/
+
+# Vite
+# ---------------
+dist/
