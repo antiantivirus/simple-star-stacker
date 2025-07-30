@@ -9,7 +9,7 @@
   <meta name="robots" content="index,follow">
   <meta name="description" content="">
   <meta name="thumbnail" content="">
-  <meta property="og:site_name" name="og:site_name" content="trnstnradio">
+  <meta property="og:site_name" name="og:site_name" content="">
   <meta property="og:type" content="website">
   <meta property="og:url" content="<?php echo $page->url(); ?>">
   <meta property="og:title" content="<?= $pageTitle ?>">
