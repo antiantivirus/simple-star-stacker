@@ -48,3 +48,12 @@ Icon
 # ---------------
 
 /site/config/.license
+
+
+# NPM
+# ---------------
+node_modules/
+
+# Composer
+# ---------------
+vendor/
