@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title><?= $pageTitle ?></title>
+  <title><?= $site->title()->esc() ?> | <?= $page->title()->esc() ?></title>
+
   <meta name="robots" content="index,follow">
   <meta name="description" content="">
   <meta name="thumbnail" content="">
@@ -16,8 +16,7 @@
   <meta property="og:description" content="">
   <meta property="og:image" content="">
 
-  <link rel="shortcut icon" type="image/png" href="./favicon.png">
-  <link rel="icon" type="image/png" href="./favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>">
 
   <?= vite()->css('main.css') ?>
   <?= vite()->js('main.js') ?>
