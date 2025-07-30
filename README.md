@@ -4,20 +4,43 @@
 
 A simple Kirby CMS template using vite, tailwindcss, alpine.js and rsync deployment.
 
-### Try Kirby for free
-
-You can try Kirby and the Plainkit on your local machine or on a test server as long as you need to make sure it is the right tool for your next project. … and when you’re convinced, [buy your license](https://getkirby.com/buy).
-
 ### Get going
 
-Read our guide on [how to get started with Kirby](https://getkirby.com/docs/guide/quickstart).
+1. **Clone this repository**
 
-You can [download the latest version](https://github.com/getkirby/plainkit/archive/main.zip) of the Plainkit.
-If you are familiar with Git, you can clone Kirby's Plainkit repository from Github.
+2. **Install dependencies**
 
-    git clone https://github.com/getkirby/plainkit.git
+    - PHP dependencies:
+        ```bash
+        composer install
+        ```
+    - JavaScript dependencies:
+        ```bash
+        npm install
+        ```
+
+3. **Start the development server**
+
+    ```bash
+    npm run dev
+    ```
+
+    This will start Vite alongside Kirby for hot-reloading and asset building.
+
+4. **Configure Kirby**
+
+    - Copy `site/config/vite.config.php.example` to `site/config/vite.config.php` and adjust settings as needed.
+
+5. **Access your site**
+
+    - Open your browser and go to `http://localhost:8000` (or your configured local server).
+
+6. **Deploy**
+    - Use the provided `deploy` script for rsync-based deployment to your server.
 
 ## What's Kirby?
+
+Kirby is a simple flat file CMS based in PHP that can be run on very low resources and shared website hosting.
 
 -   **[getkirby.com](https://getkirby.com)** – Get to know the CMS.
 -   **[Try it](https://getkirby.com/try)** – Take a test ride with our online demo. Or download one of our kits to get started.
