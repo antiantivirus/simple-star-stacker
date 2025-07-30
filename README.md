@@ -27,15 +27,11 @@ A simple Kirby CMS template using vite, tailwindcss, alpine.js and rsync deploym
 
     This will start Vite alongside Kirby for hot-reloading and asset building.
 
-4. **Configure Kirby**
+4. **Access your site**
 
-    - Copy `site/config/vite.config.php.example` to `site/config/vite.config.php` and adjust settings as needed.
+    - Open your browser and go to `http://localhost:8000` (or your configured local server) and the panel at `http://localhost:8000/panel`
 
-5. **Access your site**
-
-    - Open your browser and go to `http://localhost:8000` (or your configured local server).
-
-6. **Deploy**
+5. **Deploy**
     - Use the provided `deploy` script for rsync-based deployment to your server.
 
 ## What's Kirby?
