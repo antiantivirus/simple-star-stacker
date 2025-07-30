@@ -12,7 +12,7 @@
   <meta property="og:site_name" name="og:site_name" content="">
   <meta property="og:type" content="website">
   <meta property="og:url" content="<?php echo $page->url(); ?>">
-  <meta property="og:title" content="<?= $pageTitle ?>">
+  <meta property="og:title" content="<?= $site->title()->esc() ?> | <?= $page->title()->esc() ?>">
   <meta property="og:description" content="">
   <meta property="og:image" content="">
 
