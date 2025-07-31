@@ -2,7 +2,7 @@
 
 # SIMPLE STAR STACKER 💫
 
-A simple Kirby CMS template using vite, tailwindcss, alpine.js and rsync deployment.
+A simple Kirby CMS template using vite, tailwindcss, htmx, alpine.js and rsync deployment.
 
 ### Get going
 
